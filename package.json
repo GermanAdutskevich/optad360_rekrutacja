@@ -1,0 +1,36 @@
+{
+  "name": "optad360_rekrutacja",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.dev.js --hot",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "axios": "^0.21.1",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.3.2",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.7.1"
+  },
+  "devDependencies": {
+    "webpack-merge": "^4.2.2",
+    "path": "^0.12.7",
+    "html-webpack-plugin": "^3.2.0",
+    "clean-webpack-plugin": "^3.0.0"
+  },
+  "keywords": [],
+  "author": "german.adutskevich",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GermanAdutskevich/optad360_rekrutacja"
+  }
+}
